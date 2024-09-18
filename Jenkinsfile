@@ -8,7 +8,7 @@ pipeline{
         stage("Code"){
             steps{
                 git url: "https://github.com/pariharrohit223/Django_cicd_for_jenkins_new.git", branch: "main"
-                echo "code clone ho chuka h (jenkin file running from git hub jenkins file parihar rohit 30"
+                echo "code clone ho chuka h (jenkin file running from git hub jenkins file pariharohit30"
             }
         }
         stage("Build & Test"){
