@@ -13,7 +13,7 @@ pipeline{
         }
         stage("Build & Test"){
             steps{
-                sh "docker build . -t pariharrohit30/notes-app-jenkins"
+                sh "docker build . -t notes-app-jenkins"
                 echo "docker ke through image build ho gai"
             }
         }
