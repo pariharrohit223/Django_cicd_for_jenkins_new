@@ -19,7 +19,7 @@ pipeline{
         }
        stage("Push to Docker hub"){
            steps{
-               echo "pahucha di docker hub per"
+               echo "pahucha di image docker hub per"
                withCredentials(
                    [usernamePassword(
                        credentialsId:"dockerCreds",
